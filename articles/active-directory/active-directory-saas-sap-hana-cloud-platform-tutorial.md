@@ -98,6 +98,8 @@ If you are not familiar with this procedure, see [How to convert a binary certif
       > 
    2. Open the downloaded SAP HANA Cloud Platform metadata file, and then locate the **ns3:AssertionConsumerService** tag.
    3. Copy the value of the **Location** attribute, and then paste it into the **SAP HANA Cloud Platform Reply URL** textbox.
+   4. In the metadata file from SAP HANA Cloud Platform, locate the **KeyName** tag.
+   5. Copy the value assigned to this tag, and then paste it into the **Identifier** textbox. 
 7. On the **Configure single sign-on at SAP HANA Cloud Platform** page, to download your metadata, click **Download metadata**, and then save the file on your computer.
    
    ![Configure Single Sign-On](./media/active-directory-saas-sap-hana-cloud-platform-tutorial/IC790799.png "Configure Single Sign-On")
